@@ -1,0 +1,24 @@
+{
+  "name": "newexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch --env-file=.env server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itssduy/NewExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itssduy/NewExpress/issues"
+  },
+  "homepage": "https://github.com/itssduy/NewExpress#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
